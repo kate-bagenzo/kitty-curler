@@ -63,3 +63,9 @@ a:active {
     justify-content: flex-start;
   }
 }
+
+@media screen and (max-height: 800px) {
+  footer {
+    display: none;
+  }
+}
